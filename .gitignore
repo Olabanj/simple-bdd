@@ -1,0 +1,10 @@
+node_modules/
+.vscode/
+dist/
+.DS_Store
+cypress/screenshots/
+cypress/videos/
+npm_install_debug.log
+results/
+reports/
+log/

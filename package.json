@@ -1,0 +1,33 @@
+{
+  "name": "cypress-bdd",
+  "version": "1.0.0",
+  "description": "testing with ci-cd",
+  "main": "index.js",
+  "scripts": {
+    "build": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Olabanj/simple-bdd.git"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "browserstack-cypress-cli": "^1.29.0",
+    "cypress": "^13.6.6"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefintions": "cypress/e2e/**/*.js",
+    "json": {
+      "enabled": true,
+      "output": "reports/json/reports.json"
+    },
+    "html": {
+      "enabled": true,
+      "output": "reports/html/reports.html"
+    }
+  }
+}

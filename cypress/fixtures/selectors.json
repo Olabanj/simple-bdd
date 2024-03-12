@@ -1,0 +1,9 @@
+{
+  
+    "email": "#email",
+    "emailInput": "lukman+6@remotepass.com",
+    "password": "#password",
+    "passwordInput": "Testing@1",
+    "Submit": "button[type='submit']"
+  
+}
