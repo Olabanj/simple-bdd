@@ -20,7 +20,6 @@
     "cypress": "^13.6.6"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefintions": "cypress/e2e/**/*.js",
     "json": {
       "enabled": true,
       "output": "reports/json/reports.json"
